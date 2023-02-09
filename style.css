@@ -1,0 +1,166 @@
+/* Colors and fonts */
+
+
+body {
+	background: rgb(221, 221, 221);
+	color : #d989b5;
+	font-size: 16px;
+	font-family: Bahnschrift Light;
+
+}
+
+
+
+h1, h2 {
+ 
+}
+
+
+h1 {
+	color : #7F167F;
+	font-size: 35px;
+	font-family: Century Gothic, sans-serif;
+	
+
+
+}
+
+h2 {
+	color : #CB1C8D;
+	font-size: 24px;
+	font-family : Ebrima ;	
+
+}
+
+a {
+	text-decoration : none;
+	color: #c9669d;
+	font-weight: italic;
+	font-family: Bahnschrift Light ;
+	width: 700px;
+	margin: 30px auto;
+	padding: 10px;
+}
+
+
+a:hover {
+	color: #7f167f;
+}
+
+
+
+
+
+/*Custom design with class*/
+
+.circle {
+	border-radius: 50%;
+	margin: 10px auto;
+	width: 10px auto;
+}
+
+img {
+	width: 125px;
+	margin: 200px auto;
+}
+
+.container {
+	width: 850px;
+	margin: 30px auto;
+}
+
+
+
+.middle {
+	
+	padding: 40px;
+	border-radius: 5px;
+	background: rgb(240, 240, 240);
+	box-shadow: 0 10px 30px rgba(238, 200, 221, .6);
+	margin: 40px 0px;
+	text-align: center;
+}
+
+.button {
+	background-color: #d989b5 ;
+	color:white;
+	padding: 10px, 5px;
+	border-radius: 5px;
+}
+
+.button:hover {
+	background-color:  #c9669d ;
+	color:white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding-left: 10px;
+}
+
+.list-inline i {
+	font-size: 35px;
+	color: #d989b5;
+}
+
+.list-inline i:hover {
+	color: #c9669d;
+}
+
+#introduction p {
+	margin-bottom: 20px;
+}
+
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 630px) {
+	.container {
+		width: 500px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+
+
+	
